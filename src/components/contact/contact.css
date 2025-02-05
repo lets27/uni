@@ -1,0 +1,55 @@
+.contact {
+  margin: 80px auto;
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+
+.contact-column {
+  flex-basis: 48%;
+  box-sizing: border-box;
+}
+
+.contact-column h3 {
+  font-weight: 6000;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-column h3 img {
+  width: 35px;
+  margin-left: 10px;
+}
+
+.contact-column ul li {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contact-column ul li img {
+  width: 3.5%;
+  margin: 10px;
+}
+
+.contacts-form input,
+.contacts-form textarea {
+  display: block;
+  width: 200%;
+  background: black;
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: none;
+}
+button:hover {
+  border: 2px solid green;
+  background: lightcyan;
+}
+
+/* media querys */

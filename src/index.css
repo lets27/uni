@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f5f9;
+}
+
+li {
+  cursor: pointer;
+  line-height: 1;
+}
+/* add this container in whatever div i want to get the padding */
+.container {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+/* style for all btns */
+
+.btn {
+  background-color: #e5e7eb;
+  color: #020617;
+  padding: 14px 25px;
+  border-radius: 14px;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.btn img {
+  width: 20px;
+}
+
+/* media querys for tablet */
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn {
+    padding: 14px 22px;
+  }
+}

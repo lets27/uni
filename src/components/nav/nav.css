@@ -1,0 +1,71 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* background-color: #333; */
+  color: #fff;
+  position: fixed;
+  top: 0;
+  height: 5rem;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-bar ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-bar img {
+  width: 180px;
+}
+
+.dark-nav {
+  transition: 0.5s;
+  background-color: blue;
+}
+
+.nav-bar ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav-bar ul li:hover {
+  transform: translateY(-5px); /* Moves up */
+}
+
+/* Hover effect for the logo */
+.nav-bar img {
+  width: 180px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-bar img:hover {
+  transform: translateY(-5px); /* Moves up */
+}
+
+/* media query fro shrinking logo */
+@media (max-width: 1000px) {
+  .logo {
+    width: 50px;
+  }
+  nav .leftside ul li {
+    margin: 10px 15px;
+  }
+}

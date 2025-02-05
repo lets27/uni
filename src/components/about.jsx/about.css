@@ -1,0 +1,43 @@
+.about {
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.left-about {
+  flex-basis: 40%;
+  position: relative;
+}
+
+.left-about .aboutImg {
+  border-radius: 10px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.left-about .play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 15%;
+  z-index: 10;
+}
+
+.right-about {
+  flex-basis: 56%;
+}
+
+.right-about h3 {
+  font-weight: 650;
+  font-size: 2rem;
+  margin: 15px;
+}
+
+.right-about p {
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5rem;
+}

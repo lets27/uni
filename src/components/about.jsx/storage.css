@@ -1,0 +1,23 @@
+/* second flex box option style */
+/* .left-about {
+  flex-basis: 40%;
+  position: relative;
+  display: flex; /* Enable flexbox */
+/* align-items: center; Center vertically */
+/* justify-content: center; /* Center horizontally */
+/* background: url("../../assets/about.png"); /* Set your image path */
+/* background-size: cover; Ensure the image covers the entire div */
+*/
+  /* background-position: center; /* Center the image */
+  /* background-repeat: no-repeat; Prevent tiling */ */
+  /* height: auto; Adjust height as needed, or use a fixed value */
+  /* aspect-ratio: 16 / 9; Maintain a responsive aspect ratio */
+  /* border-radius: 10px; Optional: Add rounded corners */
+  /* min-width: 30%; */ */
+/* } */
+
+/* 
+.left-about .play { 
+  width: 15%; /* Sets the size of the play button relative to its container */
+  /* z-index: 10; }Ensures the play button appears above the background */
+*/
