@@ -39,17 +39,34 @@
 .contacts-form textarea {
   display: block;
   width: 200%;
-  background: black;
   padding: 15px;
-  border: 0;
-  outline: 0;
+  border: 2px solid lightblue;
+  outline: none;
   margin-bottom: 15px;
   margin-top: 5px;
   resize: none;
+  background-color: transparent;
+  color: black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
+
+.contacts-form input:hover,
+.contacts-form textarea:hover {
+  transform: translateY(-3px); /* Moves input up */
+  box-shadow: 0 4px 10px rgba(0, 191, 255, 0.3); /* Light blue shadow */
+}
+
+.contacts-form input:focus,
+.contacts-form textarea:focus {
+  border-color: deepskyblue;
+  box-shadow: 0 0 5px deepskyblue;
+}
+
 button:hover {
   border: 2px solid green;
   background: lightcyan;
+  transform: translateY(-3px); /* Moves button up */
+  transition: transform 0.3s ease;
 }
 
 /* media querys */

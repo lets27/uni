@@ -21,10 +21,10 @@ const Contact = () => {
               <img src={phone} alt="phone icon" /> +267 7858483
             </li>
             <li>
-              <img src={mail} alt="mail icon" /> contact@Megmail
+              <img src={mail} alt="mail icon" /> contact@gmail.com
             </li>
             <li>
-              <img src={location} alt="location icon" /> Gaboronne
+              <img src={location} alt="location icon" /> Gaborone
             </li>
           </ul>
         </div>
